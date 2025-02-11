@@ -493,9 +493,53 @@ section {
 }
 }
 @media (min-width: 1158px) {
-    .third-list {
-       flex-wrap: wrap;
-       gap: 24px;
-    }
+
 }
 
+/* ----------------------------------------FOURTH--------------------------------------- */
+.fourth {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.portf-header {
+    color: #2e2f42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11em;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+.portf-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 48px;
+}
+.app-text {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+}
+.app-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+.about-app {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+
+}
+.overlay {
+    display: none;
+}
